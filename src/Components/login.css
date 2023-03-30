@@ -1,0 +1,69 @@
+.login_page {
+    background: linear-gradient(90deg, rgba(0,60,73,1) 11%, rgba(5,82,98,1) 39%, rgba(5,82,98,1) 57%, rgba(0,60,73,1) 87%);
+}
+.login{
+    /* background-color: #224957; */
+    background-image: url("./images/pic1.png");
+    background-position: bottom left;
+    background-size: 100% 15%;
+    background-repeat: no-repeat;
+    height: 95vh;
+    padding-top: 50px;
+}
+.login_box {
+    background: linear-gradient(90deg, rgba(0,60,73,1) 0%, rgba(0,69,85,1) 5%, rgba(0,69,85,1) 95%, rgba(0,60,73,1) 100%);
+    width: 500px;
+    margin: auto;
+    color: white;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.login_box h2 {
+    font-size: 3em;
+}
+.login_box form {
+    margin-top: 30px;
+}
+.login_box input {
+    background-color: #4d6c78;
+    border: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.login_box input:focus {
+    background-color: #4d6c78;
+    color: white;
+    box-shadow: none;
+}
+.login #emailHelp {
+    color: white;
+}
+.login_box .submit-btn {
+    padding: 7px 30px 7px 30px;
+    margin-top: 15px;
+    background-color: #13d675;
+    color: #224957;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px #0ecf6fa5 ;
+}
+.login_box .submit-btn:hover {
+    background-color: #0cf27f;
+}
+.login_box .offer_signup h4 {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 300;
+}
+.login_box .offer_signup h4 a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: rgb(45, 192, 225);
+}
+.login_box .offer_signup h4 a:hover {
+    color: rgb(0, 208, 255);
+}

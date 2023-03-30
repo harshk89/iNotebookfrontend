@@ -1,0 +1,13 @@
+.Notes .notes-display {
+    margin: auto;
+    max-width: 1150px;
+    padding: 80px 75px 0px 75px;
+    background: rgba(12, 14, 15, 0.7);
+}
+.Notes .section-heading{
+    color: white;
+}
+.Notes .no-notes-message {
+    padding-top: 30px;
+    color: white;
+}

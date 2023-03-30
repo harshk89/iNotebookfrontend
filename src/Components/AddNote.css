@@ -1,0 +1,49 @@
+.addNote {
+    margin: auto;
+    max-width: 1150px;
+    padding: 30px 75px 0px 75px;
+    display: flex;
+    background: rgba(12, 14, 15, 0.7);;
+}
+.addNote .welcome {
+    height: 45px;
+    background-color: #363636b7;
+    border-radius: 10px;
+    padding: 5px 20px 0px 10px;
+    color: rgb(211, 222, 221);
+}
+.addNote .left-section {
+    width: 30%;
+}
+.addNote .add-new-note {
+    margin-top: 30px;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    background-color: #2b3535c8;
+    border-radius: 10px;
+    color: rgb(235, 235, 244);
+}
+.addNote .add-new-note:hover {
+    background-color: #656e6edc;
+    color: rgb(255, 255, 255);
+}
+.addNote .add-new-note .left {
+    width: 30%;
+}
+.addNote .add-new-note img{
+    width: 100px;
+}
+.addNote .add-new-note .right {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.addNote .right-section {
+    width: 65%;
+}
+.addNote .right-section img {
+    position: absolute;
+    margin-left: 10%;
+    width: 320px;
+    top: 65px;
+}

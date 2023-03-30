@@ -1,0 +1,16 @@
+.Notes .card {
+    background-color: rgba(214, 232, 234, 0.932);
+    height: 200px;
+    transition: 0.2s ease-in-out;
+}
+.Notes .card:hover {
+    transform: translateY(-8px) scale(1.03);
+    /* box-shadow: 0px 5px 5px rgba(187, 205, 207, 0.814); */
+    background-color: rgb(238, 246, 247);
+}
+.card-body {
+    display: flex;
+}
+.buttons {
+    margin-bottom: 0px;
+}
